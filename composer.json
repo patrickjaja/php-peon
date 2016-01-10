@@ -1,0 +1,15 @@
+{
+  "name": "hsnr/abgabe3",
+  "description": "Einsendeaufgabe HSNR 03",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Jennifer Hormes",
+      "email": "nomail@web.de"
+    }
+  ],
+  "require": {
+    "sergeytsalkov/meekrodb": "v2.3"
+  }
+}
