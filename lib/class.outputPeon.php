@@ -31,7 +31,7 @@ class OutputPeon
         $this->sendOutput($msg);
     }
     public function error($content) {
-        header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+//        header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
 
         $msg=array("status"=>"ERROR"
         ,"content"=>$content
@@ -47,6 +47,8 @@ class OutputPeon
     private function sendOutput($msg) {
         if ($this->format=="json") {
             echo json_encode($msg);
+            //Stop rest, only one output possible atm
+            die();
         }
     }
 }
