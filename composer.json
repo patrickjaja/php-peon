@@ -1,11 +1,11 @@
 {
-  "name": "hsnr/abgabe3",
-  "description": "Einsendeaufgabe HSNR 03",
+  "name": "patrickjaja/php-peon",
+  "description": "",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Jennifer Hormes",
+      "name": "Patrick Jaja",
       "email": "nomail@web.de"
     }
   ],
